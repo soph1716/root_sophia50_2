@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: lightsalmon;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#parallelogram{
+    width: 150px;
+    height: 100px;
+    transform: skew(20deg);
+    background: red;
+    transition: all 0.5s ease-in; 
+    position: relative;
+}
+
+#parallelogram-right.change-me{
+    border-left: 100px pink;
+    left:200px;
+    /* translate: 200px; */
+    transform: translateX(200px) translateY() rotate(20dg) scale(2.5);
+
+}

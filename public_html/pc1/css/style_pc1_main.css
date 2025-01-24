@@ -1,0 +1,103 @@
+* { 
+    margin: 0px;
+    padding: 3px;
+}
+
+body {
+    background-image: url(https://i.pinimg.com/736x/99/18/27/991827e8538a1ef1ae725e542c5ca690.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.button-a { 
+    background-color:rgb(251, 188, 71);
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 2px solid rgb(251, 188, 71);
+    box-shadow: 2px 4px 10px rgb(42, 42, 42);
+    font-family: "Agbalumo", system-ui;
+    color:#f1f1f1;
+    text-shadow: 2px 2px 10px #9f6500;
+    font-size: 20px;
+}
+.button-b { 
+    background-color: rgb(248, 153, 79);
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 2px solid rgb(248, 153, 79);
+    box-shadow: 2px 4px 10px rgb(42, 42, 42);
+    font-family: "Agbalumo", system-ui;
+    color:#f1f1f1;
+    text-shadow: 2px 2px 10px hsl(31, 100%, 35%);
+    font-size: 20px;
+}
+
+.button-c { 
+    background-color: rgb(247, 102, 109);
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 2px solid rgb(247, 102, 109);
+    box-shadow: 2px 4px 10px rgb(42, 42, 42);
+    font-family: "Agbalumo", system-ui;
+    color:#f1f1f1;
+    text-shadow: 2px 2px 10px hsl(349, 100%, 35%);
+    font-size: 20px;
+} 
+
+.button-d { 
+    background-color: rgb(249, 112, 188);
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 2px solid rgb(249, 112, 188);
+    box-shadow: 2px 4px 10px rgb(42, 42, 42);
+    font-family: "Agbalumo", system-ui;
+    color:#f1f1f1;
+    text-shadow: 2px 2px 10px hsl(311, 100%, 35%);
+    font-size: 20px;
+}
+
+.button-e { 
+    background-color:rgb(51, 197, 204);
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 2px solid rgb(51, 197, 204);
+    box-shadow: 2px 4px 10px rgb(42, 42, 42);
+    font-family: "Agbalumo", system-ui;
+    color:#f1f1f1;
+    text-shadow: 2px 2px 10px #00729f;
+    font-size: 20px;
+}
+
+.button-f { 
+    background-color: green;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 2px solid green;
+    box-shadow: 2px 4px 10px rgb(42, 42, 42);
+    font-family: "Agbalumo", system-ui;
+    color:#f1f1f1;
+    text-shadow: 2px 2px 10px darkgreen;
+    font-size: 20px;
+}
+
+.container{
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+}
+
+
+.fade-in-text {
+    color: rgb(247, 102, 109);
+    font-size: 30px;
+    text-align: center;
+   color: #fffdc6; 
+   font-family: "Agbalumo", system-ui;
+    text-shadow: 2px 2px 10px #000000;
+   animation: fadeIn 1.5s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }

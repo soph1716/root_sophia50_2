@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript 1</title>
+</head>
+<body>
+    <h1>JavaScript Demo 1</h1>
+    <button id="loader" onclick="loadStuff()">click me.</button>
+    <main id="content"></main>
+    <audio src="sounds/evil-laugh-89423.mp3" controls></audio>
+
+    <style>
+        body{
+            background-color: lightblue;
+        }
+    </style>
+
+    <script>
+        alert("Sup bb girl;)");
+        console.log("i see u");
+        
+        // comment -> (//, /*)
+        
+        /**
+         * Variables    
+         * @author me
+         * 
+         */
+
+    // dynamic variable "let"
+    let myName = "Sophia";
+
+    //a constant variable "cont"
+    const pi= 3.14159265
+
+    //math operators: + = / *
+    console.log( "PI x 7" + pi * 7);
+
+    // Concatenate strings (text data)
+    //with other strings or dynamic data with +
+    /**
+     * F u n c t i o n
+     */
+
+     function eatPizza()
+
+     {
+        alert("yummyPizza🍕")
+     }
+
+     eatPizza();
+
+     //New ES6 Function
+     let makePizza = () => {
+        console.log ("adding ingridients...and bake")
+    };
+
+    const myContainer = document.getElementById("content");
+
+    let myAudio = new Audio("sounds/evil-laugh-89423.mp3")
+    
+    function loadStuff(){
+        myAudio.play();
+        myContainer.innerHTML = " <p>hello</p> <img src= 'https://images.pexels.com/photos/16446077/pexels-photo-16446077/free-photo-of-flowers-and-plants-around-house-wall.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' />";
+    }
+
+    
+  
+
+</script>
+    
+</body>
+</html>

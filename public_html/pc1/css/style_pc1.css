@@ -1,0 +1,33 @@
+*{
+    margin: 10px;
+    padding: 2px;
+}
+
+
+body { 
+    background-color:rgb(173, 231, 172);
+    color: black
+}
+
+.container{
+    background-color: white;
+    box-sizing: border-box; 
+    width: 100%;
+    height: auto;   
+    box-shadow: 10px 5px 20px rgb(53, 173, 103);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+    padding-right: 20px;
+}
+
+.container img{
+    width: 100%;
+}
+
+.video{
+ width: 100%;
+ height: auto;
+}
+
+
+

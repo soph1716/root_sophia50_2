@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 3px;
+}
+
+.fade-in-text {
+    /* opacity adjustment
+    background-color: rgba(215, 87, 159,.5);*/ 
+    font-size: 100px;
+    text-align: center;
+   color: #fffdc6; 
+   font-family: "Agbalumo", system-ui;
+    text-shadow: 2px 2px 10px #000000;
+   animation: fadeIn 1.5s;
+}
+
+body {
+    text-align: center;
+    background-image: url(https://i.pinimg.com/736x/13/14/c9/1314c90593a2a4241f78c676252dbd4a.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.button-a { 
+    background-color:rgb(251, 188, 71);
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 2px solid rgb(251, 188, 71);
+    box-shadow: 2px 4px 10px rgb(42, 42, 42);
+    font-family: "Agbalumo", system-ui;
+    color:#f1f1f1;
+    text-shadow: 2px 2px 10px #9f6500;
+    font-size: 20px;
+}
+.button-b { 
+    background-color: rgb(248, 153, 79);
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 2px solid rgb(248, 153, 79);
+    box-shadow: 2px 4px 10px rgb(42, 42, 42);
+    font-family: "Agbalumo", system-ui;
+    color:#f1f1f1;
+    text-shadow: 2px 2px 10px hsl(31, 100%, 35%);
+    font-size: 20px;
+}
+
+.button-c { 
+    background-color: rgb(247, 102, 109);
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 2px solid rgb(247, 102, 109);
+    box-shadow: 2px 4px 10px rgb(42, 42, 42);
+    font-family: "Agbalumo", system-ui;
+    color:#f1f1f1;
+    text-shadow: 2px 2px 10px hsl(349, 100%, 35%);
+    font-size: 20px;
+} 
+
+.button-d { 
+    background-color: rgb(249, 112, 188);
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 2px solid rgb(249, 112, 188);
+    box-shadow: 2px 4px 10px rgb(42, 42, 42);
+    font-family: "Agbalumo", system-ui;
+    color:#f1f1f1;
+    text-shadow: 2px 2px 10px hsl(311, 100%, 35%);
+    font-size: 20px;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.box {
+    background-color:rgb(33, 33, 33, .5);
+}
+
+.container{
+    text-align: center;
+    padding: 5px;
+    margin: 20px;
+}
+
+
